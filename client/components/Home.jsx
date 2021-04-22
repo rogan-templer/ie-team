@@ -5,10 +5,11 @@ import Button from './Button'
 
 function Home() {
   return (
-    <div>
-      <h2>Home</h2>
-      <p>Nice quote</p>
-      <Link to='/quiz'> <Button /> </Link>
+    <div className='container'>
+      <div className='grid'>
+      <h3 className='col'>Home</h3>
+      <Link to='/quiz'> <Button/> </Link>
+      </div>
     </div>
   )
 }
