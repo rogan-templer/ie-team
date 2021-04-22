@@ -1,12 +1,14 @@
-import React from "react";
-import Home from "./Home";
+import React from 'react'
+import { Route } from 'react-router-dom'
+
+import Home from './Home'
 
 function App() {
   return (
     <>
-      <Home />
+      <Route exact path='/' component={Home} />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
