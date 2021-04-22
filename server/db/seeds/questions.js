@@ -1,5 +1,5 @@
-export default {
-  Questions: [
+exports.seed = knex => {
+  return knex('questions').insert([
     {
       id: "1",
       question: "Anzac Day is held on?",
@@ -7,7 +7,7 @@ export default {
       b: "25 April",
       c: "26 April",
       d: "27 April",
-      answer: "b",
+      answer: "25 April",
     },
     {
       id: "2",
@@ -16,7 +16,7 @@ export default {
       b: "1916",
       c: "1939",
       d: "1990",
-      answer: "b",
+      answer: "1916",
     },
     {
       id: "3",
@@ -25,7 +25,7 @@ export default {
       b: "Australian and New Zealand Artillery Company",
       c: "American and New Zealand Army Corps",
       d: "Australian and New Zealand Army Club",
-      answer: "a",
+      answer: "Australian and New Zealand Army Corps",
 
     },
     {
@@ -92,5 +92,5 @@ export default {
       d: "Emily Dickinson",
       answer: "c",
     },
-  ],
-};
+  ])
+}
