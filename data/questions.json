@@ -6,7 +6,7 @@
         "b": "25 April",
         "c": "26 April",
         "d": "27 April",
-        "answer": "25 April"
+        "answer": "b"
     },
     {
         "id": "2",
@@ -15,7 +15,7 @@
         "b": "1916",
         "c": "1939",
         "d": "1990",
-        "answer": "1916"
+        "answer": "b"
     },
     {
         "id": "3",
@@ -24,7 +24,7 @@
         "b": "Australian and New Zealand Artillery Company",
         "c": "American and New Zealand Army Corps",
         "d": "Australian and New Zealand Army Club",
-        "answer": "Australian and New Zealand Army Corps"
+        "answer": "a"
     },
     {
         "id": "4",
