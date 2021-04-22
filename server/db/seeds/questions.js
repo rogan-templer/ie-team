@@ -35,7 +35,7 @@ exports.seed = knex => {
       b: "A Silver Fern",
       c: "A Red Poppy",
       d: "A Yellow Rose",
-      answer: "c",
+      answer: "A Red Poppy",
 
     },
     {
@@ -45,7 +45,7 @@ exports.seed = knex => {
       b: "Rosemary",
       c: "Basil",
       d: "Thyme",
-      answer: "b",
+      answer: "Rosemary",
     },
     {
       id: "6",
@@ -54,7 +54,7 @@ exports.seed = knex => {
       b: "Somme Offensive",
       c: "Champagne-Marne",
       d: "Dardanelles Campaign",
-      answer: "d",
+      answer: "Dardanelles Campaign",
     },
     {
       id: "7",
@@ -63,7 +63,7 @@ exports.seed = knex => {
       b: "6 months",
       c: "10 months",
       d: "18 months",
-      answer: "c",
+      answer: "10 months",
     },
     {
       id: "8",
@@ -72,7 +72,7 @@ exports.seed = knex => {
       b: "The ANZACs and Gallipoli",
       c: "New Zealand in World War I",
       d: "War and the Aftermath",
-      answer: "a",
+      answer: "Gallipoli: The Scale of our War",
     },
     {
       id: "9",
@@ -81,7 +81,7 @@ exports.seed = knex => {
       b: "A bugle call",
       c: "A book",
       d: "A campaign",
-      answer: "b",
+      answer: "A bugle call",
     },
     {
       id: "10",
@@ -90,7 +90,7 @@ exports.seed = knex => {
       b: "John Greenleaf Whittier",
       c: "Laurence Binyon",
       d: "Emily Dickinson",
-      answer: "c",
+      answer: "Laurence Binyon",
     },
   ])
 }
