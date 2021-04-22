@@ -8,7 +8,7 @@ function Home() {
     <div>
       <h2>Home</h2>
       <p>Nice quote</p>
-      <Link to='/quiz'> <Button text='Test your Knowledge here' /> </Link>
+      <Link to='/quiz'> <Button /> </Link>
     </div>
   )
 }
