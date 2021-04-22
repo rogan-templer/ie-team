@@ -1,3 +1,30 @@
 body {
   margin: 0 auto;
 }
+
+/* header */
+.logo {
+  float: left;
+  height: 5rem;
+  width: auto;
+  margin: auto;
+  padding: 1%;
+}
+
+/* footer */
+.footer {
+  position: absolute; 
+  bottom: 0; 
+  width: 100%;
+  background-color: rgb(196, 47, 47);
+}
+
+.donate {
+  float: left;
+  height: 3rem;
+  width: auto;
+  margin: auto;
+  padding: 1%;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
