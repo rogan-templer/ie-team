@@ -3,8 +3,10 @@ import React from 'react'
 
 function Header() {
     return (
-        <div>
-            <img class='logo' src={'/images/logo.jpg'} alt='logo'/>
+        <div className='container'>
+            <div className='grid'>
+            <img className='logo col' src={'/images/logo.jpg'} alt='logo'/>
+            </div>
         </div>
     )
 }

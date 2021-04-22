@@ -1,5 +1,16 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0 auto;
+}
+
+header {
+
 }
 
 /* header */
@@ -32,6 +43,26 @@ body {
 
 /* quiz & questions */
 
-.flex-container {
-  display: flex;
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+/* home */
+
+h3 {
+  text-align: center;
+  margin: 1rem;
+  padding: 2%;
+}
+
+/* button */
+
+.button {
+  display: block;
+  margin: 0 auto;
+  width: 14rem;
+  text-align: center;
+  background: red;
+  padding: 20px;
 }

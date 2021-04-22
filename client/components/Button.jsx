@@ -2,9 +2,9 @@ import React from 'react'
 
 function Button() {
     return (
-
-        <button>Test your Knowledge here</button>
-
+        <div>
+            <span className='button'>Test your knowledge</span>
+        </div>
     )
 }
 
