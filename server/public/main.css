@@ -27,4 +27,11 @@ body {
   padding: 1%;
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
+  color: white;
+}
+
+/* quiz & questions */
+
+.flex-container {
+  display: flex;
 }

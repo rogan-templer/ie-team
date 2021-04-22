@@ -5,7 +5,7 @@ import Question from './Question'
 
 function Quiz() {
     return (
-        <div>
+        <div class='quiz-container'>
             <p> <Question /> </p>
         </div>
     )
