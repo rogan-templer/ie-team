@@ -1,92 +1,232 @@
 [
-    {
-        "id": "1",
-        "question": "Anzac Day is held on?",
-        "a": "24 April",
-        "b": "25 April",
-        "c": "26 April",
-        "d": "27 April",
-        "answer": "b"
-    },
-    {
-        "id": "2",
-        "question": "The first Anzac Day commemoration occurred in?",
-        "a": "1915",
-        "b": "1916",
-        "c": "1939",
-        "d": "1990",
-        "answer": "b"
-    },
-    {
-        "id": "3",
-        "question": "ANZAC stands for?",
-        "a": "Australian and New Zealand Army Corps",
-        "b": "Australian and New Zealand Artillery Company",
-        "c": "American and New Zealand Army Corps",
-        "d": "Australian and New Zealand Army Club",
-        "answer": "a"
-    },
-    {
-        "id": "4",
-        "question": "A symbol commonly associated with Anzac Day is?",
-        "a": "A Kiwi",
-        "b": "A Silver Fern",
-        "c": "A Red Poppy",
-        "d": "A Yellow Rose",
-        "answer": "c"
-    },
-    {
-        "id": "5",
-        "question": "Apart from the poppy what plant holds special significance on Anzac Day?",
-        "a": "Oregano",
-        "b": "Rosemary",
-        "c": "Basil",
-        "d": "Thyme",
-        "answer": "b"
-    },
-    {
-        "id": "6",
-        "question": "What is the Gallipoli Campaign also known as?",
-        "a": "Battle of Passchendaele",
-        "b": "Somme Offensive",
-        "c": "Champagne-Marne",
-        "d": "Dardanelles Campaign",
-        "answer": "d"
-    },
-    {
-        "id": "7",
-        "question": "How long did the battle at Gallipoli last?",
-        "a": "2 months",
-        "b": "6 months",
-        "c": "10 months",
-        "d": "18 months",
-        "answer": "c"
-    },
-    {
-        "id": "8",
-        "question": "Te Papa’s famous Gallipoli exhibition is called what?",
-        "a": "Gallipoli: The Scale of our War",
-        "b": "The ANZACs and Gallipoli",
-        "c": "New Zealand in World War I",
-        "d": "War and the Aftermath",
-        "answer": "a"
-    },
-    {
-        "id": "9",
-        "question": "What is the Last Post?",
-        "a": "A poem",
-        "b": "A bugle call",
-        "c": "A book",
-        "d": "A campaign",
-        "answer": "b"
-    },
-    {
-        "id": "10",
-        "question": "Who wrote the poem For the Fallen (Famous for its fourth stanza that begins with “They shall grow not old, as we that are left grow old”?",
-        "a": "Edgar Allan Poe",
-        "b": "John Greenleaf Whittier",
-        "c": "Laurence Binyon",
-        "d": "Emily Dickinson",
-        "answer": "c"
-    }
+  {
+    "id": "1",
+    "question": "Anzac Day is held on?",
+    "öptions": [
+      {
+        "type": "a",
+        "option": "24 April"
+      },
+      {
+        "type": "b",
+        "option": "25 April"
+      },
+      {
+        "type": "c",
+        "option": "26 April"
+      },
+      {
+        "type": "d",
+        "option": "27 April"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "2",
+    "question": "The first Anzac Day commemoration occurred in?",
+    "öptions": [
+      {
+        "type": "a",
+        "option": "1915"
+      },
+      {
+        "type": "b",
+        "option": "1916"
+      },
+      {
+        "type": "c",
+        "option": "1939"
+      },
+      {
+        "type": "d",
+        "option": "1990"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "3",
+    "question": "ANZAC stands for?",
+    "öptions": [
+      {
+        "type": "a",
+        "option": "Australian and New Zealand Army Corps"
+      },
+      {
+        "type": "b",
+        "option": "Australian and New Zealand Artillery Company"
+      },
+      {
+        "type": "c",
+        "option": "American and New Zealand Army Corps"
+      },
+      {
+        "type": "d",
+        "option": "Australian and New Zealand Army Club"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": "4",
+    "question": "A symbol commonly associated with Anzac Day is?",
+    "öptions": [
+      {
+        "type": "a",
+        "option": "A Kiwi"
+      },
+      {
+        "type": "b",
+        "option": "A Silver Fern"
+      },
+      {
+        "type": "c",
+        "option": "A red Poppy"
+      },
+      {
+        "type": "d",
+        "option": "A Yellow Rose"
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "5",
+    "question": "Apart from the poppy what plant holds special significance on Anzac Day?",
+    "öptions": [
+      {
+        "type": "a",
+        "option": "Oregano"
+      },
+      {
+        "type": "b",
+        "option": "Rosemary"
+      },
+      {
+        "type": "c",
+        "option": "Basil"
+      },
+      {
+        "type": "d",
+        "option": "Thyme"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "6",
+    "question": "What is the Gallipoli Campaign also known as?",
+    "options": [
+      {
+        "type": "a",
+        "option": "Battle of Passchendaele"
+      },
+      {
+        "type": "b",
+        "option": "Somme Offensive"
+      },
+      {
+        "type": "c",
+        "option": "Champagne-Marne"
+      },
+      {
+        "type": "d",
+        "option": "Dardanelles Campaign"
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": "7",
+    "question": "How long did the battle at Gallipoli last?",
+    "options": [
+      {
+        "type": "a",
+        "option": "2 months"
+      },
+      {
+        "type": "b",
+        "option": "6 months"
+      },
+      {
+        "type": "c",
+        "option": "10 months"
+      },
+      {
+        "type": "d",
+        "option": "18 months"
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "8",
+    "question": "Te Papa’s famous Gallipoli exhibition is called what?",
+    "options": [
+      {
+        "type": "a",
+        "option": "Gallipoli: The Scale of our War"
+      },
+      {
+        "type": "b",
+        "option": "The ANZACs and Gallipoli"
+      },
+      {
+        "type": "c",
+        "option": "New Zealand in World War I"
+      },
+      {
+        "type": "d",
+        "option": "War and the Aftermath"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": "9",
+    "question": "What is the Last Post?",
+    "options": [
+      {
+        "type": "a",
+        "option": "A poem"
+      },
+      {
+        "type": "b",
+        "option": "A bugle call"
+      },
+      {
+        "type": "c",
+        "option": "A book"
+      },
+      {
+        "type": "d",
+        "option": "A campaign"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "10",
+    "question": "Who wrote the poem For the Fallen (Famous for its fourth stanza that begins with “They shall grow not old, as we that are left grow old”?",
+    "options": [
+      {
+        "type": "a",
+        "option": "Edgar Allan Poe"
+      },
+      {
+        "type": "b",
+        "option": "John Greenleaf Whittier"
+      },
+      {
+        "type": "c",
+        "option": "Laurence Binyon"
+      },
+      {
+        "type": "d",
+        "option": "Emily Dickinson"
+      }
+    ],
+    "answer": "c"
+  }
 ]
