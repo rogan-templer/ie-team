@@ -8,17 +8,24 @@ function Question() {
     const question = questionData.find((question) => question.id === id)
     const [score, setScore] = useState(0)
 
+    const handleAnswerOptionClick = (isCorrect) => {
+        if (isCorrect) {
+            console.log(isCorrect)
+            setScore(score + 1)
+        }
+    }
     return (
         <div className='quiz-container' >
             <div key={question.id}>
                 <h4>{question.question}</h4>
-                <button>{question.options[0].type}. {question.options[0].option}</button>
-                <button>{question.options[1].type}. {question.options[1].option}</button>
-                <button>{question.options[2].type}. {question.options[2].option}</button>
-                <button>{question.options[3].type}. {question.options[3].option}</button>
+                <Link to={`/quiz/${Number(id) + 1}`}><button onClick={() => handleAnswerOptionClick(question.options[0].isCorrect)}>{question.options[0].type}. {question.options[0].option}</button>
+                    <button onClick={() => handleAnswerOptionClick(question.options[1].isCorrect)}>{question.options[1].type}. {question.options[1].option}</button>
+                    <button onClick={() => handleAnswerOptionClick(question.options[2].isCorrect)}>{question.options[2].type}. {question.options[2].option}</button>
+                    <button onClick={() => handleAnswerOptionClick(question.options[3].isCorrect)}>{question.options[3].type}. {question.options[3].option}</button>
+                </Link>
             </div>
             <div>
-                <Link to={`/quiz/${Number(id) + 1}`}> <button>Next</button> </Link>
+                {score}
             </div>
         </div>
     )

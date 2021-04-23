@@ -6,22 +6,22 @@
             {
                 "type": "a",
                 "option": "24 April",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "b",
                 "option": "25 April",
-                "isCorrect": "true"
+                "isCorrect": true
             },
             {
                 "type": "c",
                 "option": "26 April",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "d",
                 "option": "27 April",
-                "isCorrect": "false"
+                "isCorrect": false
             }
         ],
         "answer": "b"
@@ -33,22 +33,22 @@
             {
                 "type": "a",
                 "option": "1915",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "b",
                 "option": "1916",
-                "isCorrect": "true"
+                "isCorrect": true
             },
             {
                 "type": "c",
                 "option": "1939",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "d",
                 "option": "1990",
-                "isCorrect": "false"
+                "isCorrect": false
             }
         ],
         "answer": "b"
@@ -60,22 +60,22 @@
             {
                 "type": "a",
                 "option": "Australian and New Zealand Army Corps",
-                "isCorrect": "true"
+                "isCorrect": true
             },
             {
                 "type": "b",
                 "option": "Australian and New Zealand Artillery Company",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "c",
                 "option": "American and New Zealand Army Corps",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "d",
                 "option": "Australian and New Zealand Army Club",
-                "isCorrect": "false"
+                "isCorrect": false
             }
         ],
         "answer": "a"
@@ -87,22 +87,22 @@
             {
                 "type": "a",
                 "option": "A Kiwi",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "b",
                 "option": "A Silver Fern",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "c",
                 "option": "A red Poppy",
-                "isCorrect": "true"
+                "isCorrect": true
             },
             {
                 "type": "d",
                 "option": "A Yellow Rose",
-                "isCorrect": "false"
+                "isCorrect": false
             }
         ],
         "answer": "c"
@@ -114,22 +114,22 @@
             {
                 "type": "a",
                 "option": "Oregano",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "b",
                 "option": "Rosemary",
-                "isCorrect": "true"
+                "isCorrect": true
             },
             {
                 "type": "c",
                 "option": "Basil",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "d",
                 "option": "Thyme",
-                "isCorrect": "false"
+                "isCorrect": false
             }
         ],
         "answer": "b"
@@ -141,22 +141,22 @@
             {
                 "type": "a",
                 "option": "Battle of Passchendaele",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "b",
                 "option": "Somme Offensive",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "c",
                 "option": "Champagne-Marne",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "d",
                 "option": "Dardanelles Campaign",
-                "isCorrect": "true"
+                "isCorrect": true
             }
         ],
         "answer": "d"
@@ -168,22 +168,22 @@
             {
                 "type": "a",
                 "option": "2 months",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "b",
                 "option": "6 months",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "c",
                 "option": "10 months",
-                "isCorrect": "true"
+                "isCorrect": true
             },
             {
                 "type": "d",
                 "option": "18 months",
-                "isCorrect": "false"
+                "isCorrect": false
             }
         ],
         "answer": "c"
@@ -195,22 +195,22 @@
             {
                 "type": "a",
                 "option": "Gallipoli: The Scale of our War",
-                "isCorrect": "true"
+                "isCorrect": true
             },
             {
                 "type": "b",
                 "option": "The ANZACs and Gallipoli",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "c",
                 "option": "New Zealand in World War I",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "d",
                 "option": "War and the Aftermath",
-                "isCorrect": "false"
+                "isCorrect": false
             }
         ],
         "answer": "a"
@@ -222,22 +222,22 @@
             {
                 "type": "a",
                 "option": "A poem",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "b",
                 "option": "A bugle call",
-                "isCorrect": "true"
+                "isCorrect": true
             },
             {
                 "type": "c",
                 "option": "A book",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "d",
                 "option": "A campaign",
-                "isCorrect": "false"
+                "isCorrect": false
             }
         ],
         "answer": "b"
@@ -249,22 +249,22 @@
             {
                 "type": "a",
                 "option": "Edgar Allan Poe",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "b",
                 "option": "John Greenleaf Whittier",
-                "isCorrect": "false"
+                "isCorrect": false
             },
             {
                 "type": "c",
                 "option": "Laurence Binyon",
-                "isCorrect": "true"
+                "isCorrect": true
             },
             {
                 "type": "d",
                 "option": "Emily Dickinson",
-                "isCorrect": "false"
+                "isCorrect": false
             }
         ],
         "answer": "c"
