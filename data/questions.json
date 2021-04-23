@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "question": "Anzac Day is held on?",
+        "question": "ANZAC Day is held on?",
         "options": [
             {
                 "type": "a",
@@ -28,7 +28,7 @@
     },
     {
         "id": "2",
-        "question": "The first Anzac Day commemoration occurred in?",
+        "question": "The first ANZAC Day commemoration occurred in?",
         "options": [
             {
                 "type": "a",
@@ -82,7 +82,7 @@
     },
     {
         "id": "4",
-        "question": "A symbol commonly associated with Anzac Day is?",
+        "question": "A symbol commonly associated with ANZAC Day is?",
         "options": [
             {
                 "type": "a",
@@ -109,7 +109,7 @@
     },
     {
         "id": "5",
-        "question": "Apart from the poppy what plant holds special significance on Anzac Day?",
+        "question": "Apart from the poppy what plant holds special significance on ANZAC Day?",
         "options": [
             {
                 "type": "a",
@@ -199,7 +199,7 @@
             },
             {
                 "type": "b",
-                "option": "The ANZACs and Gallipoli",
+                "option": "The ANZAC's and Gallipoli",
                 "isCorrect": false
             },
             {

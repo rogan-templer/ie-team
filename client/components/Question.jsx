@@ -41,7 +41,7 @@ function Question() {
     )
         : (<div>
             <h1>Your final score is:</h1>
-            <div className="score" >{score}</div>
+            <div className="score" >{score}/10</div>
             </div>
             )
         }
