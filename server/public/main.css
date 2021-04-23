@@ -11,7 +11,6 @@ body {
 
 /* header */
 .logo {
-  float: left;
   height: 7rem;
   width: auto;
   margin: auto;
@@ -24,7 +23,8 @@ body {
   bottom: 0; 
   width: 100%;
   background-color: rgb(196, 47, 47);
-
+  background-attachment: scroll;
+  margin: auto;
 }
 
 .donate {
@@ -86,6 +86,28 @@ a {
   margin-top: 2rem;
   margin-bottom: 5rem;
   font-family: 'Poppins', sans-serif;
-
-
 }
+
+/* quiz */
+
+h1 {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+  list-style-type: none;
+  width: 4rem;
+  height: auto;
+  margin: auto;
+  padding: 5%;
+}
+
+.q-container {
+  position: relative;
+  left: 23rem;
+}
+
+
