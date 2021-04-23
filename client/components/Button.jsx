@@ -3,7 +3,7 @@ import React from 'react'
 function Button() {
     return (
         <div>
-            <span className='button'>Test your knowledge</span>
+            <span className='button'>Take the quiz!</span>
         </div>
     )
 }

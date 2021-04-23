@@ -9,14 +9,10 @@ body {
   margin: 0 auto;
 }
 
-header {
-
-}
-
 /* header */
 .logo {
   float: left;
-  height: 5rem;
+  height: 7rem;
   width: auto;
   margin: auto;
   padding: 1%;
@@ -28,6 +24,7 @@ header {
   bottom: 0; 
   width: 100%;
   background-color: rgb(196, 47, 47);
+
 }
 
 .donate {
@@ -39,6 +36,8 @@ header {
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
   color: white;
+  position: relative;
+  left: 15rem;
 }
 
 /* quiz & questions */
@@ -52,8 +51,10 @@ header {
 
 h3 {
   text-align: center;
-  margin: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   padding: 2%;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* button */
@@ -63,6 +64,28 @@ h3 {
   margin: 0 auto;
   width: 14rem;
   text-align: center;
-  background: red;
+  background: rgb(196, 47, 47);
   padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 2rem;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  transition: all .2s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+.quote {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  font-family: 'Poppins', sans-serif;
+
+
 }
