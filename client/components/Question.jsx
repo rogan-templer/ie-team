@@ -8,33 +8,44 @@ function Question() {
     const question = questionData.find((question) => question.id === id)
     const [score, setScore] = useState(0)
 
-    return (
-        <div className='container'>
-            <div key={question.id} className='grid'>
-
-                <h1 className='col'>{question.question}</h1>
-                <div className='grid'>
-                <ul className='grid'>
-                <li>
-                    <button>{question.options[0].type}. {question.options[0].option}</button>
-                    </li>
-                <li>
-                    <button>{question.options[1].type}. {question.options[1].option}</button>
-                </li>
-                <li>
-                    <button>{question.options[2].type}. {question.options[2].option}</button>
-                </li>
-
-                <li>
-                    <button>{question.options[3].type}. {question.options[3].option}</button>
-                </li>
-                </ul>
-                </div>
+    const handleAnswerOptionClick = (isCorrect) => {
+        if (isCorrect) {
+            console.log(isCorrect)
+            setScore(score + 1)
+        }
+    }
+    return ( <>
+    {id < 11 ? ( 
+        <div className='container' >
+            <div key={question.id} className=''>
+                <h1 className="">{question.question}</h1>
+                <Link to={`/quiz/${Number(id) + 1}`}>
+                    <div className="options" > 
+                    <button className="btn" onClick={() => handleAnswerOptionClick(question.options[0].isCorrect)}>{question.options[0].type}. {question.options[0].option}</button>                    
+                    </div>
+                    <div className="options">
+                    <button className="btn" onClick={() => handleAnswerOptionClick(question.options[1].isCorrect)} >{question.options[1].type}. {question.options[1].option}</button>               
+                    </div>
+                    <div className="options">
+                    <button className="btn" onClick={() => handleAnswerOptionClick(question.options[2].isCorrect)} >{question.options[2].type}. {question.options[2].option}</button>
+                    </div>
+                    <div className="options">
+                    <button className="btn" onClick={() => handleAnswerOptionClick(question.options[3].isCorrect)} >{question.options[3].type}. {question.options[3].option}</button>
+                    </div>
+                </Link>
             </div>
-            <div>
-                <Link to={`/quiz/${Number(id) + 1}`}> <button className='col'>Next</button> </Link>
+            <div className="score" >
+                Score: {score}
             </div>
         </div>
+    )
+        : (<div>
+            <h1>Your final score is:</h1>
+            <div className="score" >{score}</div>
+            </div>
+            )
+        }
+    </>
     )
 }
 
