@@ -1,232 +1,272 @@
 [
-  {
-    "id": "1",
-    "question": "Anzac Day is held on?",
-    "öptions": [
-      {
-        "type": "a",
-        "option": "24 April"
-      },
-      {
-        "type": "b",
-        "option": "25 April"
-      },
-      {
-        "type": "c",
-        "option": "26 April"
-      },
-      {
-        "type": "d",
-        "option": "27 April"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "id": "2",
-    "question": "The first Anzac Day commemoration occurred in?",
-    "öptions": [
-      {
-        "type": "a",
-        "option": "1915"
-      },
-      {
-        "type": "b",
-        "option": "1916"
-      },
-      {
-        "type": "c",
-        "option": "1939"
-      },
-      {
-        "type": "d",
-        "option": "1990"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "id": "3",
-    "question": "ANZAC stands for?",
-    "öptions": [
-      {
-        "type": "a",
-        "option": "Australian and New Zealand Army Corps"
-      },
-      {
-        "type": "b",
-        "option": "Australian and New Zealand Artillery Company"
-      },
-      {
-        "type": "c",
-        "option": "American and New Zealand Army Corps"
-      },
-      {
-        "type": "d",
-        "option": "Australian and New Zealand Army Club"
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "id": "4",
-    "question": "A symbol commonly associated with Anzac Day is?",
-    "öptions": [
-      {
-        "type": "a",
-        "option": "A Kiwi"
-      },
-      {
-        "type": "b",
-        "option": "A Silver Fern"
-      },
-      {
-        "type": "c",
-        "option": "A red Poppy"
-      },
-      {
-        "type": "d",
-        "option": "A Yellow Rose"
-      }
-    ],
-    "answer": "c"
-  },
-  {
-    "id": "5",
-    "question": "Apart from the poppy what plant holds special significance on Anzac Day?",
-    "öptions": [
-      {
-        "type": "a",
-        "option": "Oregano"
-      },
-      {
-        "type": "b",
-        "option": "Rosemary"
-      },
-      {
-        "type": "c",
-        "option": "Basil"
-      },
-      {
-        "type": "d",
-        "option": "Thyme"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "id": "6",
-    "question": "What is the Gallipoli Campaign also known as?",
-    "options": [
-      {
-        "type": "a",
-        "option": "Battle of Passchendaele"
-      },
-      {
-        "type": "b",
-        "option": "Somme Offensive"
-      },
-      {
-        "type": "c",
-        "option": "Champagne-Marne"
-      },
-      {
-        "type": "d",
-        "option": "Dardanelles Campaign"
-      }
-    ],
-    "answer": "d"
-  },
-  {
-    "id": "7",
-    "question": "How long did the battle at Gallipoli last?",
-    "options": [
-      {
-        "type": "a",
-        "option": "2 months"
-      },
-      {
-        "type": "b",
-        "option": "6 months"
-      },
-      {
-        "type": "c",
-        "option": "10 months"
-      },
-      {
-        "type": "d",
-        "option": "18 months"
-      }
-    ],
-    "answer": "c"
-  },
-  {
-    "id": "8",
-    "question": "Te Papa’s famous Gallipoli exhibition is called what?",
-    "options": [
-      {
-        "type": "a",
-        "option": "Gallipoli: The Scale of our War"
-      },
-      {
-        "type": "b",
-        "option": "The ANZACs and Gallipoli"
-      },
-      {
-        "type": "c",
-        "option": "New Zealand in World War I"
-      },
-      {
-        "type": "d",
-        "option": "War and the Aftermath"
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "id": "9",
-    "question": "What is the Last Post?",
-    "options": [
-      {
-        "type": "a",
-        "option": "A poem"
-      },
-      {
-        "type": "b",
-        "option": "A bugle call"
-      },
-      {
-        "type": "c",
-        "option": "A book"
-      },
-      {
-        "type": "d",
-        "option": "A campaign"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "id": "10",
-    "question": "Who wrote the poem For the Fallen (Famous for its fourth stanza that begins with “They shall grow not old, as we that are left grow old”?",
-    "options": [
-      {
-        "type": "a",
-        "option": "Edgar Allan Poe"
-      },
-      {
-        "type": "b",
-        "option": "John Greenleaf Whittier"
-      },
-      {
-        "type": "c",
-        "option": "Laurence Binyon"
-      },
-      {
-        "type": "d",
-        "option": "Emily Dickinson"
-      }
-    ],
-    "answer": "c"
-  }
+    {
+        "id": "1",
+        "question": "Anzac Day is held on?",
+        "options": [
+            {
+                "type": "a",
+                "option": "24 April",
+                "isCorrect": "false"
+            },
+            {
+                "type": "b",
+                "option": "25 April",
+                "isCorrect": "true"
+            },
+            {
+                "type": "c",
+                "option": "26 April",
+                "isCorrect": "false"
+            },
+            {
+                "type": "d",
+                "option": "27 April",
+                "isCorrect": "false"
+            }
+        ],
+        "answer": "b"
+    },
+    {
+        "id": "2",
+        "question": "The first Anzac Day commemoration occurred in?",
+        "options": [
+            {
+                "type": "a",
+                "option": "1915",
+                "isCorrect": "false"
+            },
+            {
+                "type": "b",
+                "option": "1916",
+                "isCorrect": "true"
+            },
+            {
+                "type": "c",
+                "option": "1939",
+                "isCorrect": "false"
+            },
+            {
+                "type": "d",
+                "option": "1990",
+                "isCorrect": "false"
+            }
+        ],
+        "answer": "b"
+    },
+    {
+        "id": "3",
+        "question": "ANZAC stands for?",
+        "options": [
+            {
+                "type": "a",
+                "option": "Australian and New Zealand Army Corps",
+                "isCorrect": "true"
+            },
+            {
+                "type": "b",
+                "option": "Australian and New Zealand Artillery Company",
+                "isCorrect": "false"
+            },
+            {
+                "type": "c",
+                "option": "American and New Zealand Army Corps",
+                "isCorrect": "false"
+            },
+            {
+                "type": "d",
+                "option": "Australian and New Zealand Army Club",
+                "isCorrect": "false"
+            }
+        ],
+        "answer": "a"
+    },
+    {
+        "id": "4",
+        "question": "A symbol commonly associated with Anzac Day is?",
+        "options": [
+            {
+                "type": "a",
+                "option": "A Kiwi",
+                "isCorrect": "false"
+            },
+            {
+                "type": "b",
+                "option": "A Silver Fern",
+                "isCorrect": "false"
+            },
+            {
+                "type": "c",
+                "option": "A red Poppy",
+                "isCorrect": "true"
+            },
+            {
+                "type": "d",
+                "option": "A Yellow Rose",
+                "isCorrect": "false"
+            }
+        ],
+        "answer": "c"
+    },
+    {
+        "id": "5",
+        "question": "Apart from the poppy what plant holds special significance on Anzac Day?",
+        "options": [
+            {
+                "type": "a",
+                "option": "Oregano",
+                "isCorrect": "false"
+            },
+            {
+                "type": "b",
+                "option": "Rosemary",
+                "isCorrect": "true"
+            },
+            {
+                "type": "c",
+                "option": "Basil",
+                "isCorrect": "false"
+            },
+            {
+                "type": "d",
+                "option": "Thyme",
+                "isCorrect": "false"
+            }
+        ],
+        "answer": "b"
+    },
+    {
+        "id": "6",
+        "question": "What is the Gallipoli Campaign also known as?",
+        "options": [
+            {
+                "type": "a",
+                "option": "Battle of Passchendaele",
+                "isCorrect": "false"
+            },
+            {
+                "type": "b",
+                "option": "Somme Offensive",
+                "isCorrect": "false"
+            },
+            {
+                "type": "c",
+                "option": "Champagne-Marne",
+                "isCorrect": "false"
+            },
+            {
+                "type": "d",
+                "option": "Dardanelles Campaign",
+                "isCorrect": "true"
+            }
+        ],
+        "answer": "d"
+    },
+    {
+        "id": "7",
+        "question": "How long did the battle at Gallipoli last?",
+        "options": [
+            {
+                "type": "a",
+                "option": "2 months",
+                "isCorrect": "false"
+            },
+            {
+                "type": "b",
+                "option": "6 months",
+                "isCorrect": "false"
+            },
+            {
+                "type": "c",
+                "option": "10 months",
+                "isCorrect": "true"
+            },
+            {
+                "type": "d",
+                "option": "18 months",
+                "isCorrect": "false"
+            }
+        ],
+        "answer": "c"
+    },
+    {
+        "id": "8",
+        "question": "Te Papa’s famous Gallipoli exhibition is called what?",
+        "options": [
+            {
+                "type": "a",
+                "option": "Gallipoli: The Scale of our War",
+                "isCorrect": "true"
+            },
+            {
+                "type": "b",
+                "option": "The ANZACs and Gallipoli",
+                "isCorrect": "false"
+            },
+            {
+                "type": "c",
+                "option": "New Zealand in World War I",
+                "isCorrect": "false"
+            },
+            {
+                "type": "d",
+                "option": "War and the Aftermath",
+                "isCorrect": "false"
+            }
+        ],
+        "answer": "a"
+    },
+    {
+        "id": "9",
+        "question": "What is the Last Post?",
+        "options": [
+            {
+                "type": "a",
+                "option": "A poem",
+                "isCorrect": "false"
+            },
+            {
+                "type": "b",
+                "option": "A bugle call",
+                "isCorrect": "true"
+            },
+            {
+                "type": "c",
+                "option": "A book",
+                "isCorrect": "false"
+            },
+            {
+                "type": "d",
+                "option": "A campaign",
+                "isCorrect": "false"
+            }
+        ],
+        "answer": "b"
+    },
+    {
+        "id": "10",
+        "question": "Who wrote the poem For the Fallen (Famous for its fourth stanza that begins with “They shall grow not old, as we that are left grow old”?",
+        "options": [
+            {
+                "type": "a",
+                "option": "Edgar Allan Poe",
+                "isCorrect": "false"
+            },
+            {
+                "type": "b",
+                "option": "John Greenleaf Whittier",
+                "isCorrect": "false"
+            },
+            {
+                "type": "c",
+                "option": "Laurence Binyon",
+                "isCorrect": "true"
+            },
+            {
+                "type": "d",
+                "option": "Emily Dickinson",
+                "isCorrect": "false"
+            }
+        ],
+        "answer": "c"
+    }
 ]
