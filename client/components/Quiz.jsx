@@ -6,8 +6,8 @@ import Question from './Question'
 function Quiz() {
     return (
         <div className='container'>
-            <div classname='grid'>
-                <p> <Question /> </p>
+            <div className='grid'>
+                <Question />
             </div>
         </div>
     )

@@ -7,12 +7,12 @@ function Home() {
   return (
     <div className='container'>
       <div >
-      <h3 className='col'>Test your knowledge on New Zealand history by taking our ANZAC quiz below!
-                          Select the answer you think is correct, and your total score will be revealed at the end.
-                          <br></br>
+        <h3 className='col'>Test your knowledge on New Zealand history by taking our ANZAC quiz below!
+        Select the answer you think is correct, and your total score will be revealed at the end.
+        <br></br>
                           ...and don't forget to donate!
-      </h3>
-      <p className='col quote'>
+        </h3>
+        <p className='col quote'>
           "They shall grow not old as we are that are left grow old,
           <br></br>
           Age shall not weary them nor the years contemn,
@@ -30,11 +30,11 @@ function Home() {
             - Laurence Binyon
           </em>
 
-      </p>
+        </p>
 
-      <Link to='/quiz'> <Button/> </Link>
+        <Link to='/quiz/1'> <Button /> </Link>
       </div>
-    </div>
+    </div >
   )
 }
 
